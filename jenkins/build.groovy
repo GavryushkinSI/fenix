@@ -11,12 +11,12 @@ pipeline {
     stages {
         stage("First step") {
             steps {
-
+               print('test_1')
             }
         }
         stage("Second step") {
             steps {
-
+                print('test_2')
             }
         }
     }
